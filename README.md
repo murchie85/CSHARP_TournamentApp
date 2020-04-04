@@ -2,6 +2,14 @@
   
 
 ![tournamentImage](https://cdn.vox-cdn.com/thumbor/gYycEEBQahKMcA2CeglZbYjtw54=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/11519241/bracket_board.jpg)  
+  
+## NAVIGATION 
+- [Summary](#Summary)
+- [Initial Planning](#Initial-Planning)
+- [DATA DESIGN](#DATA-DESIGN)
+- [](#)
+    
+  
 
 ## Summary 
   
@@ -19,7 +27,7 @@ Emailing C#
 Custom Events.  
 Advanced Debugging.  
   
-## Initial Planning.  
+## Initial Planning
   
 It's extremely important in coding, in my experience before with COBOL development and others to flesh out the details high level design etc before getting stuck in to the app.   
 
@@ -64,7 +72,7 @@ It's extremely important in coding, in my experience before with COBOL developme
 - Random ordering.   
 - Texting as bonus feature.  
   
-## DATA DESIGN  
+## DATA DESIGN
   
  Best to do architecture design on paper or draw.io etc.  
   
