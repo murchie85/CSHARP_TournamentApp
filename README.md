@@ -6,7 +6,7 @@
 ## NAVIGATION 
 - [Summary](#Summary)
 - [Initial Planning](#Initial-Planning)
-- [DATA DESIGN](#DATA-DESIGN)
+- [Data Design](#Data-Design)
 - [](#)
     
   
@@ -72,9 +72,10 @@ It's extremely important in coding, in my experience before with COBOL developme
 - Random ordering.   
 - Texting as bonus feature.  
   
-## DATA DESIGN
+## Data Design
   
- Best to do architecture design on paper or draw.io etc.  
+ This process gets us thinking about classes which this will be.   
+ Best to do architecture design on paper or draw.io etc.    
   
 **Team**   
   
@@ -90,5 +91,34 @@ It's extremely important in coding, in my experience before with COBOL developme
 - Mobile number  `string`  *this isn't a number to be manipulated, so string is safer*   
    
 *Break apart name early, for better use later such as in email and sorting big issues with double barrel names etc*  
+   
+   
+**Tournament**   
+  
+- TournamentName `string`  
+- EntryFee `decimal` *needs precision*  
+- EnteredTeams `List<Team>`    
+- Prizes  ` List<Prize>`   
+- Rounds `List<List<Matchup>>`  
+  
+**Prize**  
+  
+- PlaceNumber `int`  
+- PlaceName  `string`  *i.e. champion, runner up etc*  
+- PrizeAmout `decimal`  
+- PrizePercentage  `double`   
+  
+**Matchup**  
+  
+- Entries `List<MatchupEentry>`  
+- Winner `Team object`  
+- MatchupRound `int`  
+  
+**MatchupEntry**  
+  
+- TeamCompeting  `Team object`  
+- Score `double`  
+- ParentMatchup `Matchup object`  
+  
 
 
