@@ -23,7 +23,7 @@ Advanced Debugging.
   
 It's extremely important in coding, in my experience before with COBOL development and others to flesh out the details high level design etc before getting stuck in to the app.   
 
-**Requirements** 
+**REQUIREMENTS** 
   
 1. Tracks games and their outcome.  
 2. Multiple competitors play.  
@@ -59,3 +59,28 @@ It's extremely important in coding, in my experience before with COBOL developme
 - Email  
 - SQL  
 - Custom Events (how do we know to check for more games etc?)  
+- Error handling.  
+- Interfaces.  
+- Random ordering.   
+- Texting as bonus feature.  
+  
+## DATA DESIGN  
+  
+ Best to do architecture design on paper or draw.io etc.  
+  
+**Team**   
+  
+- Team Members `List<person>`
+- Team Name `string`  
+  
+
+**Person**  
+  
+- First name `string`  
+- Last Name `string`    
+- Email address `string`  
+- Mobile number  `string`  *this isn't a number to be manipulated, so string is safer*   
+   
+*Break apart name early, for better use later such as in email and sorting big issues with double barrel names etc*  
+
+
