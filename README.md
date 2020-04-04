@@ -118,7 +118,26 @@ It's extremely important in coding, in my experience before with COBOL developme
   
 - TeamCompeting  `Team object`  
 - Score `double`  
-- ParentMatchup `Matchup object`  
+- ParentMatchup `Matchup object`    
   
+## User Interface Design  
+    
+ Best to do architecture design on paper or draw.io etc.    
+ **Where** do i start? : Start anywhere, or where you know and build out.    
+
+**TOURNAMENT VIEWER**  
+    
+Using Windows Forms.   
+
+![tournamentviewer](image/tournamentviewer.png)  
+  
+ - Round is a dropdown.  
+ - Score button to add. 
+   
+
+**Tournament Creator** 
+  
+![tournamentcreator](image/tournamentcreator.png)  
+
 
 
