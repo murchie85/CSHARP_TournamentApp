@@ -8,6 +8,7 @@
 - [Initial Planning](#Initial-Planning)
 - [Data Design](#Data-Design)
 - [User Interface Design ](#User-Interface-Design)
+- [LOGIC PLANNING](#LOGIC-PLANNING)
     
   
 
@@ -151,3 +152,12 @@ Using Windows Forms.
 ![createtournament](image/createtournament.png)
 
 
+## LOGIC PLANNING
+  
+**Create Tournament form**  
+Click create new team button  
+which takes us to new team form (open it)  
+once the new team is created it needs to close out the form  
+Go back to original create tournament form and also include the new team we just added.  
+  
+More to add ... 
