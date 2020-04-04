@@ -7,7 +7,7 @@
 - [Summary](#Summary)
 - [Initial Planning](#Initial-Planning)
 - [Data Design](#Data-Design)
-- [](#)
+- [User Interface Design ](#User-Interface-Design)
     
   
 
@@ -120,7 +120,7 @@ It's extremely important in coding, in my experience before with COBOL developme
 - Score `double`  
 - ParentMatchup `Matchup object`    
   
-## User Interface Design  
+## User Interface Design
     
  Best to do architecture design on paper or draw.io etc.    
  **Where** do i start? : Start anywhere, or where you know and build out.    
@@ -137,7 +137,17 @@ Using Windows Forms.
 
 **Tournament Creator** 
   
-![tournamentcreator](image/tournamentcreator.png)  
+![tournamentcreator](image/tournamentcreator.png)   
+  
+- Add team button needs it's own form.  
+- Add prize button needs it's own form.  
+  
+**Remaining Forms**    
 
+![createteam](image/createteam.png) 
+  
+![createprize](image/prize.png)
+  
+![createtournament](image/createtournament.png)
 
 
