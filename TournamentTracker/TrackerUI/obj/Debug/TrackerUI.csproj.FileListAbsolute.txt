@@ -8,3 +8,7 @@ C:\Users\adamn\Desktop\projects\CSHARP_TournamentApp\TournamentTracker\TrackerUI
 C:\Users\adamn\Desktop\projects\CSHARP_TournamentApp\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.csproj.CoreCompileInputs.cache
 C:\Users\adamn\Desktop\projects\CSHARP_TournamentApp\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.exe
 C:\Users\adamn\Desktop\projects\CSHARP_TournamentApp\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.pdb
+C:\Users\adamn\Desktop\projects\CSHARP_TournamentApp\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.CreatePrizeForm.resources
+C:\Users\adamn\Desktop\projects\CSHARP_TournamentApp\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.CreateTeamForm.resources
+C:\Users\adamn\Desktop\projects\CSHARP_TournamentApp\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.CreateTournamentForm.resources
+C:\Users\adamn\Desktop\projects\CSHARP_TournamentApp\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.TournamentDashboardForm.resources

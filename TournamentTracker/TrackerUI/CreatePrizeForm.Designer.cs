@@ -151,7 +151,7 @@
             this.createPrizeButton.Name = "createPrizeButton";
             this.createPrizeButton.Size = new System.Drawing.Size(345, 103);
             this.createPrizeButton.TabIndex = 32;
-            this.createPrizeButton.Text = "CreatePrize";
+            this.createPrizeButton.Text = "Create Prize";
             this.createPrizeButton.UseVisualStyleBackColor = true;
             this.createPrizeButton.Click += new System.EventHandler(this.createTeamButton_Click);
             // 
