@@ -161,3 +161,8 @@ once the new team is created it needs to close out the form
 Go back to original create tournament form and also include the new team we just added.  
   
 More to add ... 
+
+
+## Class Library Creation  
+  
+This will be created using .NET framwork library class. 
