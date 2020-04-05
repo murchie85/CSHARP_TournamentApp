@@ -193,6 +193,17 @@ Sample code
 ## FORMS AND UI  
 
 **NEED** to set this up as starter project (right click)
+**NEED** to set your startup form in `Program.cs` like below.  
+  
+```
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new TournamentDashboardForm());
+        }
+```
+
 Use the designs from earlier.     
 - Add new project 
 - Windows Form Application.  

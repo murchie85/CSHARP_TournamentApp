@@ -21,5 +21,20 @@ namespace TrackerUI
         {
 
         }
+
+        private void prizePercentageLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void createTeamButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
