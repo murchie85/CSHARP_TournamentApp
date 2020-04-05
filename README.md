@@ -190,3 +190,19 @@ Sample code
 ```
   
 
+## FORMS AND UI  
+
+**NEED** to set this up as starter project (right click)
+Use the designs from earlier.     
+- Add new project 
+- Windows Form Application.  
+- Call it Tracker UI.  
+- Right click on form1 rename `TournamentViewerForm`
+- Change font straight away, if you do it later it won't reflect from earlier ones.  
+- Don't copy paste forms, it's a headache because of refs.  But you can copy paste labels.  
+
+
+
+## FINAL NOTES TO REMEMBER   
+
+- XML comments make for good documentation within the code and dynamically load for methods.  
