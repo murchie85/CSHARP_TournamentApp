@@ -200,7 +200,7 @@ Sample code
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TournamentDashboardForm());
+            Application.Run(new TournamentDashboardForm()); // this wont exit until the form closes (so if other forms close, it doesn't matter app still runs.)
         }
 ```
 
@@ -211,6 +211,52 @@ Use the designs from earlier.
 - Right click on form1 rename `TournamentViewerForm`
 - Change font straight away, if you do it later it won't reflect from earlier ones.  
 - Don't copy paste forms, it's a headache because of refs.  But you can copy paste labels.  
+
+
+
+## SQL DESIGN   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
