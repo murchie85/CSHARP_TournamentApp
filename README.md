@@ -75,7 +75,8 @@ It's extremely important in coding, in my experience before with COBOL developme
   
 ## Data Design
   
- This process gets us thinking about classes which this will be.   
+ This process gets us thinking about classes which this will be.     
+ THis means that when we get to actually adding the class libraries we are more focusing on is this the right name, am i missing anything rather than is this the right data.  
  Best to do architecture design on paper or draw.io etc.    
   
 **Team**   
@@ -165,4 +166,27 @@ More to add ...
 
 ## Class Library Creation  
   
-This will be created using .NET framwork library class. 
+This will be created using .NET framwork library class.   
+- Make sure you delete class1 
+- Ensure the naming convention is good. I.e. Should have affix library .  
+- Since we planned this out already should be easier.  
+  
+1. Add new class 
+2. Call it team model.. **Ensure we have the name Model**  because it is a data model that captures data.  
+  
+    
+
+**TYPE** prop to get auto property generator in a class.   
+   
+Sample code  
+
+```
+    public class TeamModel
+    {
+        public List<Person> TeamMembers { get; set; } = new List<Person>();
+        public string TeamName { get; set; }
+
+    }
+```
+  
+  
